@@ -36,6 +36,7 @@
   animation-name: animation-image;
   animation-duration: 5s;
   animation-iteration-count: infinite;
+  width: 80px;
 }
 @keyframes animation-image {
   0% {

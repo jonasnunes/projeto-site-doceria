@@ -80,7 +80,7 @@
   height: 500px;
 }
 #corpo .main-bem-vindo {
-  padding: 3rem 2rem;
+  padding: 3rem 2rem 1rem;
 }
 #corpo .main-bem-vindo h1 {
   font-size: 3rem;
@@ -107,6 +107,7 @@
   justify-content: space-between;
   font-size: 1.2rem;
   font-weight: 300;
+  line-height: 1;
 }
 #corpo .main-bem-vindo-div-texto .botao {
   background-color: #006599;
@@ -122,6 +123,36 @@
 }
 #corpo .main-bem-vindo-div-texto .botao:hover {
   background-color: #2790C6;
+}
+#corpo .main-sobre-nos {
+  padding: 3rem 2rem 1rem;
+}
+#corpo .main-sobre-nos h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #006599;
+  padding-bottom: 2rem;
+}
+#corpo .main-sobre-nos-div {
+  display: flex;
+}
+#corpo .main-sobre-nos-div-texto {
+  padding: 0 2rem;
+  text-align: justify;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1;
+}
+#corpo .main-sobre-nos-div-img {
+  background-image: url(../images/banner4.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 800px;
+  height: 400px;
 }
 
 /*# sourceMappingURL=index.css.map */

@@ -76,6 +76,7 @@
                 
                 &-texto
                     @include mixins.section-texto
+                    padding: 0 2rem
 
                     .botao
                         @include mixins.botao
@@ -94,7 +95,44 @@
 
                 &-texto
                     @include mixins.section-texto
+                    padding-right: 2rem
 
                 &-img
                     background-image: url(../images/banner4.jpg)
                     @include mixins.section-img
+
+        &-doces1 
+            @include mixins.content 
+
+            h1
+                @include mixins.titulo
+            
+            &-galeria
+                @include mixins.flex-galeria
+
+                img 
+                    width: 18.8%
+        
+        &-doces2 
+            @include mixins.content 
+
+            h1
+                @include mixins.titulo
+            
+            &-galeria
+                @include mixins.flex-galeria
+
+                img
+                    width: 32.3%
+        
+        &-doces3 
+            @include mixins.content 
+
+            h1
+                @include mixins.titulo 
+            
+            &-galeria
+                @include mixins.flex-galeria
+
+                img
+                    width: 23.9%

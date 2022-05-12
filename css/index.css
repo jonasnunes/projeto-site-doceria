@@ -100,7 +100,6 @@
   height: 400px;
 }
 #corpo .main-bem-vindo-div-texto {
-  padding: 0 2rem;
   text-align: justify;
   display: flex;
   flex-direction: column;
@@ -108,6 +107,7 @@
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1;
+  padding: 0 2rem;
 }
 #corpo .main-bem-vindo-div-texto .botao {
   background-color: #006599;
@@ -137,7 +137,6 @@
   display: flex;
 }
 #corpo .main-sobre-nos-div-texto {
-  padding: 0 2rem;
   text-align: justify;
   display: flex;
   flex-direction: column;
@@ -145,6 +144,7 @@
   font-size: 1.2rem;
   font-weight: 300;
   line-height: 1;
+  padding-right: 2rem;
 }
 #corpo .main-sobre-nos-div-img {
   background-image: url(../images/banner4.jpg);
@@ -153,6 +153,54 @@
   background-size: cover;
   width: 800px;
   height: 400px;
+}
+#corpo .main-doces1 {
+  padding: 3rem 2rem 1rem;
+}
+#corpo .main-doces1 h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #006599;
+  padding-bottom: 2rem;
+}
+#corpo .main-doces1-galeria {
+  display: flex;
+  justify-content: space-around;
+}
+#corpo .main-doces1-galeria img {
+  width: 18.8%;
+}
+#corpo .main-doces2 {
+  padding: 3rem 2rem 1rem;
+}
+#corpo .main-doces2 h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #006599;
+  padding-bottom: 2rem;
+}
+#corpo .main-doces2-galeria {
+  display: flex;
+  justify-content: space-around;
+}
+#corpo .main-doces2-galeria img {
+  width: 32.3%;
+}
+#corpo .main-doces3 {
+  padding: 3rem 2rem 1rem;
+}
+#corpo .main-doces3 h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #006599;
+  padding-bottom: 2rem;
+}
+#corpo .main-doces3-galeria {
+  display: flex;
+  justify-content: space-around;
+}
+#corpo .main-doces3-galeria img {
+  width: 23.9%;
 }
 
 /*# sourceMappingURL=index.css.map */

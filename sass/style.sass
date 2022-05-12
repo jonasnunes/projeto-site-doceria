@@ -1,7 +1,47 @@
 @use 'variables'
+@use 'mixins'
 
 *
     margin: 0
     padding: 0
     box-sizing: border-box
     list-style-type: none
+
+#corpo
+    display: flex
+    font-family: variables.$fonte
+
+    .aside
+        width: 20%
+        height: 100vh
+        position: fixed
+        background-color: variables.$bg-cor
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        gap: 2rem
+        text-align: center
+
+        &-div1 
+            @include mixins.flex
+
+            p 
+                font-weight: 400
+                font-size: 2rem
+                color: #fff
+
+        &-div2 
+            ul
+                @include mixins.flex
+                
+                a
+                    text-decoration: none
+                    color: #fff
+                a:hover 
+                    text-decoration: underline
+    
+    .main
+        width: 80%
+        position: absolute
+        right: 0

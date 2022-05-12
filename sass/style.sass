@@ -52,3 +52,53 @@
         width: 80%
         position: absolute
         right: 0
+        
+        #img
+            background-image: url(../images/banner2.jpg)
+            background-attachment: fixed
+            background-size: cover
+            background-repeat: no-repeat
+            background-position: center
+            height: 500px
+        
+        &-bem-vindo 
+            @include mixins.content
+
+            h1
+                @include mixins.paragrafo                
+            
+            &-div
+                display: flex
+
+                &-img
+                    background-image: url(../images/banner3.jpg)
+                    background-position: center
+                    background-repeat: no-repeat
+                    background-size: cover
+                    width: 800px
+                    height: 400px
+                
+                &-texto
+                    padding: 0 2rem
+                    text-align: justify
+                    display: flex
+                    flex-direction: column
+                    justify-content: space-between
+                    font-size: 1.2rem
+                    font-weight: 300
+
+                    .botao
+                        background-color: variables.$bg-cor
+                        text-decoration: none
+                        color: #fff
+                        width: 12rem
+                        height: 3rem
+                        padding: 2rem
+                        display: flex
+                        align-items: center
+                        justify-content: center
+                        transition: .8s
+
+                    .botao:hover
+                        background-color: variables.$bg-cor-hover
+            

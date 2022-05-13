@@ -58,3 +58,15 @@
 @mixin flex-galeria 
     display: flex
     justify-content: space-around
+
+@mixin quebra1
+    @media(max-width: 930px)
+        @content
+
+@mixin quebra2
+    @media(max-width: 680px)
+        @content
+
+@mixin quebra3
+    @media(max-width: 540px)
+        @content

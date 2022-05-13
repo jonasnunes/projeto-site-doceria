@@ -137,3 +137,32 @@
 
                 img
                     width: 23.9%
+
+        &-contato
+            @include mixins.content
+
+            h1
+                @include mixins.titulo
+
+            &-formulario
+                display: flex
+                flex-direction: column
+                gap: 1rem
+
+                input, textarea
+                    width: 50%
+                    border: 1px solid variables.$bg-cor
+                    padding: 1rem
+                    color: variables.$bg-cor-hover
+                    font-family: variables.$fonte
+                    font-size: 1rem
+                
+                textarea
+                    resize: none
+                
+                .input
+                    background-color: variables.$bg-cor
+                    color: #fff
+                    width: 12rem
+                    cursor: pointer
+                    

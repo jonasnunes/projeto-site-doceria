@@ -203,5 +203,36 @@
 #corpo .main-doces3-galeria img {
   width: 23.9%;
 }
+#corpo .main-contato {
+  padding: 3rem 2rem 1rem;
+}
+#corpo .main-contato h1 {
+  font-size: 3rem;
+  font-weight: 400;
+  color: #006599;
+  padding-bottom: 2rem;
+}
+#corpo .main-contato-formulario {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+#corpo .main-contato-formulario input, #corpo .main-contato-formulario textarea {
+  width: 50%;
+  border: 1px solid #006599;
+  padding: 1rem;
+  color: #2790C6;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1rem;
+}
+#corpo .main-contato-formulario textarea {
+  resize: none;
+}
+#corpo .main-contato-formulario .input {
+  background-color: #006599;
+  color: #fff;
+  width: 12rem;
+  cursor: pointer;
+}
 
 /*# sourceMappingURL=index.css.map */

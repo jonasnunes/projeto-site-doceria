@@ -234,5 +234,13 @@
   width: 12rem;
   cursor: pointer;
 }
+#corpo .main-footer {
+  padding: 5rem;
+}
+#corpo .main-footer p {
+  text-align: center;
+  font-weight: 700;
+  color: #006599;
+}
 
 /*# sourceMappingURL=index.css.map */
